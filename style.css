@@ -1,0 +1,218 @@
+html {
+   background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   color:darkgray;
+   font-family: 'gotham';
+      text-transform: capitalize;
+}
+
+
+body {
+   display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+.container {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+
+}
+
+.navbar {
+   width: 535px;
+   height: 65px;
+   font-size: 1rem;
+   color: white;
+   -webkit-text-stroke: 9px hwb(190deg 63% 6% / 0%);
+   margin: 0.5rem;
+   padding: 0.1rem;
+   background: rgb(100 100 100 / 80%);
+    border-radius: 10rem;
+   display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    transition: all 0.7s ease-in-out ;
+    ;
+
+}
+
+.navbarItems {
+   padding: 0rem .5rem 0rem .5rem;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.navbarItem {
+   margin: 1rem;
+   padding: 0;
+}
+
+.visitCart {
+   padding: 9px 8px 9px 18px;
+    background: rgb(68 59 59 / 64%);                                   /* برای فعال نشون دادن تب */
+    border-radius: 20px 0px 0px 20px;
+    transition: all 0.5s ease;
+}
+
+ .navbar:hover .visitCart {
+
+      padding: 8px 15px;
+      border-radius: 20px;
+}
+
+.navbar:hover {
+
+   border-radius: 15px;
+   width: 1022px;
+   height: 80px;
+   font-size: 1.5rem;
+   color: white;
+   -webkit-text-stroke: 5px hwb(190deg 63% 6% / 10%);
+   
+}
+
+  .main {
+      scale: 0.9;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      height: 500px;
+      padding: 0.6rem 0.5rem 1rem;
+}
+
+  .main ul {
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .main ul li {
+   display: grid;
+    align-content: center;
+    justify-content: space-between;
+    align-items: start;
+    justify-items: center;
+    margin: 0rem 1rem;
+  }
+
+  .work-boxes {
+   width: 20rem;
+   border: 1px solid #434343;
+   padding: 1rem;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.82);
+   border-radius: 3px;
+   scale: 1;
+   transition: all .3s ease-out;
+  }
+
+  .work-boxes:hover {
+   scale: 1.04;
+    box-shadow: 0px 0px 60px rgb(255 255 255 / 54%);
+    background-color: rgb(0 0 0);
+    border-radius: 8px;
+}
+
+
+
+
+  .work-boxes img {
+   width: 100%;
+  }
+
+  .work-boxes h2 {
+   text-align: center;
+   color:whitesmoke;
+   text-transform: uppercase;
+  }
+
+  .work-boxes p {
+   text-align: center;
+   color: rgb(211 211 211);
+  }
+
+  .BTC {
+
+   color: rgb(255,215,0);
+
+
+  }
+
+  .ETH {
+
+   color: rgb(144, 177, 201);
+
+  }
+
+  .superpower {
+
+   font-size: 16px;
+   background: linear-gradient(to right, #b92b27, #1565c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+
+   .work-boxes p i.fa-crown {
+      color: rgb(255,215,0);
+      font-size: 20px;
+
+   }
+
+   .aboutmebtndiv {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: flex-end;
+
+   }
+
+   .aboutmebtn {
+      padding: 10px 28px;
+      border: 0;
+      background: rgb(184 218 255 / 62%);
+      font-family: 'gotham';
+      color: floralwhite;
+      border-radius: 38px;
+      box-shadow: 0px 0px 8px rgb(184 218 255);
+      transition: all .5s;
+      scale: 1;
+   }
+
+   .aboutmebtn:hover {
+      scale: 1.2;
+      box-shadow: 0px 0px 20px rgb(184 218 255);
+
+   }
+
+   
